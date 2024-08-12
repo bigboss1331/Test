@@ -2,7 +2,7 @@
 
 import { registerSlashCommand } from "../../slash-commands.js";
 
-registerSlashCommand("test", commandFunction, ["alias"], "Description shown in /help");
+registerSlashCommand("test", commandFunction, ["test1"], "Description shown in /help");
 
 function commandFunction(namedArgs, unnamedArgs) {
     // Command logic
