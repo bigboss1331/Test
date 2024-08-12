@@ -1,9 +1,10 @@
 //import {comfy_workflow} from "../stable-diffusion/index.js"
-import { generateQuietPrompt } from "../../../script.js";
 
+import { registerSlashCommand } from "../../slash-commands.js";
 
-async function handleMessage(data) {
-    const text = data.message;
-    const translated = await generateQuietPrompt(text);
-    // ...
+registerSlashCommand("test", commandFunction, ["alias"], "Description shown in /help");
+
+function commandFunction(namedArgs, unnamedArgs) {
+    // Command logic
+    alert("Hello World!");
 }
