@@ -1,6 +1,6 @@
 {
     "display_name": "Test",
-    "loading_order": 1,
+    "loading_order": 140,
     "requires": [],
     "optional": [],
     "js": "index.js",
