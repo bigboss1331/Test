@@ -1,0 +1,12 @@
+{
+    "display_name": "Test",
+    "loading_order": 1,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Your name",
+    "version": "0.0.1",
+    "homePage": "https://github.com/bigboss1331/Test",
+    "auto_update": true
+}
